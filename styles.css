@@ -1,0 +1,103 @@
+body{
+    background-color: hsl(0, 0%, 95%);
+    font-size: 15px;
+    margin: 10% 10% 10% 10%;
+    position: relative;
+
+}
+.left-container{
+    background-color: hsl(31, 77%, 52%);
+    position: absolute;
+    padding: 5% 10% 20% 10% ;
+    
+    margin: 2% 90% 0 0;
+    height: 300px;
+    width: 100px;
+
+}
+.middle-container{
+    background-color: hsl(184, 100%, 22%);
+    position: absolute;
+    padding: 5% 10% 20% 10% ;
+    width: 100px;
+    margin: 2% 60% 0 30% ;
+    height: 300px;
+}
+.right-container{
+    background-color: hsl(179, 100%, 13%);
+    position: absolute;
+    padding: 5% 10% 20% 10% ;
+    margin: 2% 11% 0 58% ;
+    height: 300px;
+    width: 100px;
+}
+.sedan-car{
+    width: 50px;
+    height: 50px;
+}
+.suvs-car{
+    width: 50px;
+    height: 50px;
+
+}
+.luxury-car{
+    color: hsl(179, 100%, 13%);
+    width: 50px;
+    height: 50px;
+}
+a{
+    color: #11999E; 
+    margin: 10% 5%;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+   
+}
+
+.learn-more {
+    margin: auto;
+    background: rgba(255, 255, 255, 0.75);
+    background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75));
+    background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75));
+    background-image: -ms-linear-gradient(top, rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75));
+    background-image: -o-linear-gradient(top, rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75));
+    background-image: -webkit-gradient(to bottom, rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75));
+    -webkit-border-radius: 76px;
+    -moz-border-radius: 76px;
+    border-radius: 76px;
+    color: rgba(148, 163, 187, 0.75);
+    font-family: Verdana;
+    font-size: 10px;
+    font-weight: 200px;
+    padding: 10px;
+    -webkit-box-shadow: 1px 1px 20px 0 #000000;
+    -moz-box-shadow: 1px 1px 20px 0 #000000;
+    box-shadow: 1px 1px 10px 0 #000000;
+    text-shadow: 2px -33px 20px #F2F2F2;
+    border: solid #D7DEE9 0;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+ }
+ 
+ .learn-more:hover {
+    border: solid #BFC8D7 1px;
+    background: #D6DBE4;
+    background-image: -webkit-linear-gradient(top, #D6DBE4, #C6D3E1);
+    background-image: -moz-linear-gradient(top, #D6DBE4, #C6D3E1);
+    background-image: -ms-linear-gradient(top, #D6DBE4, #C6D3E1);
+    background-image: -o-linear-gradient(top, #D6DBE4, #C6D3E1);
+    background-image: -webkit-gradient(to bottom, #D6DBE4, #C6D3E1);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 50px;
+    text-decoration: none;
+ }
+h1{
+    color: hsl(0, 0%, 95%);
+    font-family: 'Lexend Deca', sans-serif;
+}
+p{
+    color:hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca', sans-serif; 
+}
